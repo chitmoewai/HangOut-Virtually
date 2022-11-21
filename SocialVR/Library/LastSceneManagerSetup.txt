@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/IRONHEAD Games/Scenes/HomeScene.unity
+- path: Assets/IRONHEAD Games/Scenes/LoginScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
