@@ -2,29 +2,29 @@ Unity Editor version:    2021.3.5f1 (40eb3a945986)
 Branch:                  2021.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 12.6 (Build 21G115)
-Darwin version:          21.6.0
+macOS version:           Version 13.0 (Build 22A380)
+Darwin version:          22.1.0
 Architecture:            x86_64
-Running under Rosetta:   YES
+Running under Rosetta:   NO
 Available memory:        8192 MB
 Using pre-set license
 Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-/Applications/2021.3.5f1/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/2021.3.5f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-/Users/chitmoewai/_UnityOfficeProjects/TexasHoldem Project/SocialVR
+/Users/chitmoewai/HangOut-Virtually/SocialVR
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54241
-Successfully changed project path to: /Users/chitmoewai/_UnityOfficeProjects/TexasHoldem Project/SocialVR
-/Users/chitmoewai/_UnityOfficeProjects/TexasHoldem Project/SocialVR
+49604
+Successfully changed project path to: /Users/chitmoewai/HangOut-Virtually/SocialVR
+/Users/chitmoewai/HangOut-Virtually/SocialVR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,108 +54,114 @@ Successfully changed project path to: /Users/chitmoewai/_UnityOfficeProjects/Tex
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 98.08 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 101.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
-[Subsystems] Discovering subsystems at path /Applications/2021.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/chitmoewai/_UnityOfficeProjects/TexasHoldem Project/SocialVR/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/2021.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/chitmoewai/HangOut-Virtually/SocialVR/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M1 (high power)
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
 Metal devices available: 1
-0: Apple M1 (high power)
-Using device Apple M1 (high power)
-Initializing Metal device caps: Apple M1
+0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
 Initialize mono
-Mono path[0] = '/Applications/2021.3.5f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56502
+Mono path[0] = '/Applications/Unity/2021.3.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/2021.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/2021.3.5f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.001340 seconds.
+Register platform support module: /Applications/Unity/2021.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/2021.3.5f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/2021.3.5f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.006533 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 110.11 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 90.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.904 seconds
+- Completed reload, in  0.895 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1907ms)
-		BeginReloadAssembly (196ms)
+	ReloadAssembly (896ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1410ms)
-			LoadAssemblies (194ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (150ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (636ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (1004ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (408ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (241ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (111ms)
-				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (394ms)
-				ProcessInitializeOnLoadMethodAttributes (249ms)
+				InitializePlatformSupportModulesInManaged (158ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006144 seconds.
+Registered in 0.011329 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/_UnityOfficeProjects/TexasHoldem Project/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/_UnityOfficeProjects/TexasHoldem Project/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.217 seconds
+- Completed reload, in  1.552 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3219ms)
-		BeginReloadAssembly (416ms)
+	ReloadAssembly (1553ms)
+		BeginReloadAssembly (230ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (43ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (158ms)
-		EndReloadAssembly (2423ms)
-			LoadAssemblies (169ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (1154ms)
+			LoadAssemblies (132ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (360ms)
+			SetupTypeCache (330ms)
 			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (1604ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (545ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (56ms)
+				InitializePlatformSupportModulesInManaged (40ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (172ms)
-				ProcessInitializeOnLoadAttributes (1201ms)
-				ProcessInitializeOnLoadMethodAttributes (171ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/2021.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Launching external process: /Applications/Unity/2021.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (94.4 KB). Loaded Objects now: 3826.
-Memory consumption went from 232.0 MB to 231.9 MB.
-Total: 3.984000 ms (FindLiveObjects: 0.628334 ms CreateObjectMapping: 0.086459 ms MarkObjects: 2.852000 ms  DeleteObjects: 0.415750 ms)
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (82.9 KB). Loaded Objects now: 3837.
+Memory consumption went from 68.0 MB to 67.9 MB.
+Total: 3.539188 ms (FindLiveObjects: 0.299440 ms CreateObjectMapping: 0.192331 ms MarkObjects: 2.895191 ms  DeleteObjects: 0.151128 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,7 +175,163 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 23950.729061 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.010956 seconds 
+  Time since last request: 3048.525895 seconds.
+  path: Assets/IRONHEAD Games/Materials/Hair1.mat
+  artifactKey: Guid(a4875bd4df00db3468a57c4781de45b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Hair1.mat using Guid(a4875bd4df00db3468a57c4781de45b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8a51c2d908971e0f290fad8fef46c4') in 1.540393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/IRONHEAD Games/Materials/FloorCaravan.mat
+  artifactKey: Guid(dc51b82c8244885479cb9f6342d32c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/FloorCaravan.mat using Guid(dc51b82c8244885479cb9f6342d32c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf5743b368b55def876077457803a2a') in 0.469321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/IRONHEAD Games/Model/NerfBullet.fbx
+  artifactKey: Guid(9dca892392a90e245aadf1bc10d3b24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/NerfBullet.fbx using Guid(9dca892392a90e245aadf1bc10d3b24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0785b7e61345122b826111961e2fc03') in 0.192285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/IRONHEAD Games/Materials/Bench.mat
+  artifactKey: Guid(1bc49fb900cb6764a8311b2644b22acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Bench.mat using Guid(1bc49fb900cb6764a8311b2644b22acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c654bb704c4d6c9f5ec068fb59b88595') in 0.014704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/IRONHEAD Games/Materials/CaravanCeiling.mat
+  artifactKey: Guid(f7e057696ae7f7b48883e56077925811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/CaravanCeiling.mat using Guid(f7e057696ae7f7b48883e56077925811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6b179afeef6417e590d29b8ad542a8') in 0.019483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/IRONHEAD Games/Materials/Avatar1.mat
+  artifactKey: Guid(09f21d5167ca4ea44b3706edadc5b80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Avatar1.mat using Guid(09f21d5167ca4ea44b3706edadc5b80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b607f8efdacc0ee94f654d98b245e1a0') in 0.018367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/IRONHEAD Games/Model/NerfGun.fbx
+  artifactKey: Guid(7155e19acbff8c0439be957dbd0e0719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/NerfGun.fbx using Guid(7155e19acbff8c0439be957dbd0e0719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd18921d28591b8d8f95cf65f1c6da9') in 0.032948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/IRONHEAD Games/Model/Avatar4.fbx
+  artifactKey: Guid(2c913c71a75caeb47ac99021ed481226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/Avatar4.fbx using Guid(2c913c71a75caeb47ac99021ed481226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64472b1d682351a7cea15d036ec08d96') in 0.098197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/IRONHEAD Games/Model/Desert.fbx
+  artifactKey: Guid(6fc284651b326af42b181df013a65395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/Desert.fbx using Guid(6fc284651b326af42b181df013a65395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a099aaa1894d236a57a7c942b443b7') in 0.026280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/IRONHEAD Games/Materials/Hair4.mat
+  artifactKey: Guid(2c4d0092002491f4886c9d6dd63da6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Hair4.mat using Guid(2c4d0092002491f4886c9d6dd63da6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c181a28373fe7b29c2b1568e062e19dd') in 0.011085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/IRONHEAD Games/Materials/FloorSchool.mat
+  artifactKey: Guid(e34887b3b0b22fc4fbf23ff551ff1d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/FloorSchool.mat using Guid(e34887b3b0b22fc4fbf23ff551ff1d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d87252f5798d4ffee1c3ec0971a1e7f') in 0.018037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/IRONHEAD Games/Materials/Glass.mat
+  artifactKey: Guid(f165c204f5a0d29448ce4c7a5c6806b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Glass.mat using Guid(f165c204f5a0d29448ce4c7a5c6806b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a48822455052f4d81a9799bd7169c5') in 0.505882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/IRONHEAD Games/Materials/Desk.mat
+  artifactKey: Guid(11531a57f7ea13d4bad4b64ee052c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Desk.mat using Guid(11531a57f7ea13d4bad4b64ee052c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb1e5d69ad36c12f7aed1b113a17043') in 0.008492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/IRONHEAD Games/Materials/Avatar4.mat
+  artifactKey: Guid(0d25e1732ca505248831830cfe1e9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Avatar4.mat using Guid(0d25e1732ca505248831830cfe1e9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708068865b20d0f9391002518c4153f1') in 0.010662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/IRONHEAD Games/Model/PilatesBall.fbx
+  artifactKey: Guid(4df0a07d9d273c141b9d25fde13e99f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/PilatesBall.fbx using Guid(4df0a07d9d273c141b9d25fde13e99f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e41025458a1feccfea6ad9a4e940b67') in 0.019060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/IRONHEAD Games/Model/TableTennis.fbx
+  artifactKey: Guid(270ae1883b2c3324c8bf39eef66ed5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/TableTennis.fbx using Guid(270ae1883b2c3324c8bf39eef66ed5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c841b4c48fc3e250ab640ac7bfa06491') in 0.116553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/IRONHEAD Games/Model/RockD.fbx
+  artifactKey: Guid(cf0579d82c6b2a74796a20e48d01895d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/RockD.fbx using Guid(cf0579d82c6b2a74796a20e48d01895d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d3055bdbe5a478b04d5a6eb59130b8') in 0.053497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/IRONHEAD Games/Model/Land.fbx
+  artifactKey: Guid(eed664b11103af14d9da434e4202ff8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/Land.fbx using Guid(eed664b11103af14d9da434e4202ff8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a9d56b079a0d40d78cb684ddb103a1') in 0.130506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/IRONHEAD Games/Materials/BenchCushion.mat
+  artifactKey: Guid(3edd049e33f27384e92708974a41a0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/BenchCushion.mat using Guid(3edd049e33f27384e92708974a41a0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1f90c4b7e809e85e9d5b8ed368a02d') in 0.013217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/IRONHEAD Games/Model/FirePlace.fbx
+  artifactKey: Guid(05c22f5c7f6c2bd4cacfe9272dfd82e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/FirePlace.fbx using Guid(05c22f5c7f6c2bd4cacfe9272dfd82e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765c0938b99662693d5970cf82396764') in 0.100431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/IRONHEAD Games/Model/LandCollider.fbx
+  artifactKey: Guid(b423f0098ff1d8441a84a5c0f3516932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/LandCollider.fbx using Guid(b423f0098ff1d8441a84a5c0f3516932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b707e9e9402830b275512f730713b224') in 0.063351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/IRONHEAD Games/Model/LandCollider1.fbx
+  artifactKey: Guid(fc0025812d3071d4dbdfd0841ba9d308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/LandCollider1.fbx using Guid(fc0025812d3071d4dbdfd0841ba9d308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd6e1921e68155d31fbf3620b702a87') in 0.050613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/IRONHEAD Games/Model/RockC.fbx
+  artifactKey: Guid(49dec4b718cc0664db44829961ea9fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/RockC.fbx using Guid(49dec4b718cc0664db44829961ea9fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca55b1eeb2624d646b38a34a5bcfca20') in 0.042681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/IRONHEAD Games/Model/School.fbx
+  artifactKey: Guid(ff3ed56f3b645c64e9ad3dd08dda21a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/School.fbx using Guid(ff3ed56f3b645c64e9ad3dd08dda21a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7160a9073bc1b2ce3840c8e021d81329') in 0.226095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/IRONHEAD Games/Model/Avatar2.fbx
+  artifactKey: Guid(91cbd9356c50e0c40bfa26bdc36290c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/Avatar2.fbx using Guid(91cbd9356c50e0c40bfa26bdc36290c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68b13b6cc6803e98e771618550111db') in 0.084152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/IRONHEAD Games/Model/TennisBall.fbx
+  artifactKey: Guid(4bdd08e78a415fa439bdf2afd73b444b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/TennisBall.fbx using Guid(4bdd08e78a415fa439bdf2afd73b444b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a54c78a07f6b17ebd8d2ddcbccd8c55') in 0.021073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/IRONHEAD Games/Scenes/LoginScene.unity
+  artifactKey: Guid(b3049d4882a276f4dbae81c84962e9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Scenes/LoginScene.unity using Guid(b3049d4882a276f4dbae81c84962e9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b546df9cc90712e83530bd3f4884ed') in 0.000804 seconds 
