@@ -2,16 +2,16 @@ Unity Editor version:    2021.3.5f1 (40eb3a945986)
 Branch:                  2021.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 13.0 (Build 22A380)
-Darwin version:          22.1.0
+macOS version:           Version 12.6 (Build 21G115)
+Darwin version:          21.6.0
 Architecture:            x86_64
-Running under Rosetta:   NO
+Running under Rosetta:   YES
 Available memory:        8192 MB
 Using pre-set license
 Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/2021.3.5f1/Unity.app/Contents/MacOS/Unity
+/Applications/2021.3.5f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49604
+51575
 Successfully changed project path to: /Users/chitmoewai/HangOut-Virtually/SocialVR
 /Users/chitmoewai/HangOut-Virtually/SocialVR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,114 +54,109 @@ Successfully changed project path to: /Users/chitmoewai/HangOut-Virtually/Social
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 101.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 224.46 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 9.83 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
-[Subsystems] Discovering subsystems at path /Applications/Unity/2021.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Applications/2021.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/chitmoewai/HangOut-Virtually/SocialVR/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+ preferred device: Apple M1 (high power)
 Metal devices available: 1
-0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
 Initialize mono
-Mono path[0] = '/Applications/Unity/2021.3.5f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56810
+Mono path[0] = '/Applications/2021.3.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56295
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/2021.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/2021.3.5f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: /Applications/Unity/2021.3.5f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.006603 seconds.
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-[usbmuxd] Send listen message
-Native extension for iOS target not found
+Register platform support module: /Applications/2021.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/2021.3.5f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001705 seconds.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 90.17 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 149.05 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.67 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.911 seconds
+- Completed reload, in  1.923 seconds
 Domain Reload Profiling:
-	ReloadAssembly (911ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (1926ms)
+		BeginReloadAssembly (176ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (651ms)
-			LoadAssemblies (136ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (131ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1445ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (155ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (423ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (1047ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (174ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (90ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (108ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				InitializePlatformSupportModulesInManaged (240ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (150ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (393ms)
+				ProcessInitializeOnLoadMethodAttributes (253ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002745 seconds.
+Registered in 0.034704 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 134.02 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.44 ms.
+Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.552 seconds
+- Completed reload, in  3.590 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1553ms)
-		BeginReloadAssembly (230ms)
+	ReloadAssembly (3593ms)
+		BeginReloadAssembly (413ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (44ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (131ms)
-		EndReloadAssembly (1156ms)
-			LoadAssemblies (134ms)
+			CreateAndSetChildDomain (159ms)
+		EndReloadAssembly (2815ms)
+			LoadAssemblies (172ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (543ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (1907ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
+				InitializePlatformSupportModulesInManaged (49ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (143ms)
-				ProcessInitializeOnLoadAttributes (319ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
+				RefreshPlugins (134ms)
+				BeforeProcessingInitializeOnLoad (188ms)
+				ProcessInitializeOnLoadAttributes (1422ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/2021.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (82.9 KB). Loaded Objects now: 3837.
-Memory consumption went from 68.1 MB to 68.0 MB.
-Total: 3.730109 ms (FindLiveObjects: 0.324340 ms CreateObjectMapping: 0.204657 ms MarkObjects: 3.059803 ms  DeleteObjects: 0.140392 ms)
+Launching external process: /Applications/2021.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.30 ms.
+Unloading 4358 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.3 MB). Loaded Objects now: 4812.
+Memory consumption went from 285.5 MB to 284.1 MB.
+Total: 4.529333 ms (FindLiveObjects: 0.309000 ms CreateObjectMapping: 0.121625 ms MarkObjects: 3.189542 ms  DeleteObjects: 0.907834 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,555 +170,106 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3048.526433 seconds.
-  path: Assets/IRONHEAD Games/Model/TreeA.fbx
-  artifactKey: Guid(04dd69d03fb2fb44b9a35e0bcc5f859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Model/TreeA.fbx using Guid(04dd69d03fb2fb44b9a35e0bcc5f859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5837dce1a6c8225fca3abe71d8212275') in 1.540534 seconds 
+  Time since last request: 20602.862728 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(db451f5f295634a37ab0a198e5a87d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(db451f5f295634a37ab0a198e5a87d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2293f5a3a997fd0a12b0ddb628ec7735') in 0.738864 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/IRONHEAD Games/Materials/Basketball.mat
-  artifactKey: Guid(1daf905649660b8458486d977e16c565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Basketball.mat using Guid(1daf905649660b8458486d977e16c565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bf7259ebf4d2116df5ae221cd36167') in 0.102594 seconds 
+  Time since last request: 0.001359 seconds.
+  path: Assets/XR/Loaders/Oculus Loader.asset
+  artifactKey: Guid(dedceb1a98a9646a6817f9b07909b266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Oculus Loader.asset using Guid(dedceb1a98a9646a6817f9b07909b266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5513fc62637efb987cb5d2e450355dec') in 0.002495 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/IRONHEAD Games/Model/Avatar5.fbx
-  artifactKey: Guid(166544fdcae3ad745835e01eacb2f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Model/Avatar5.fbx using Guid(166544fdcae3ad745835e01eacb2f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8818e43bc7f53101c482b2b0098ca0') in 0.088712 seconds 
+  Time since last request: 1.602446 seconds.
+  path: Assets/XRI/Settings/XRInteractionEditorSettings.asset
+  artifactKey: Guid(4f0965f267aa849418bd2b820f7abe9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings/XRInteractionEditorSettings.asset using Guid(4f0965f267aa849418bd2b820f7abe9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa0049173f8e1845d1892a7f9030a92') in 0.010642 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/IRONHEAD Games/Materials/Avatar2.mat
-  artifactKey: Guid(de8de76c3ef3ff14598f67dea86a6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Avatar2.mat using Guid(de8de76c3ef3ff14598f67dea86a6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67413aa2baa557c0381c299a3465db7d') in 0.017554 seconds 
+  Time since last request: 1.329567 seconds.
+  path: Assets/XRI/Settings/Resources/InteractionLayerSettings.asset
+  artifactKey: Guid(76cd1e1359f8f44898fea21f4e137e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings/Resources/InteractionLayerSettings.asset using Guid(76cd1e1359f8f44898fea21f4e137e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e52929ba29606fe93f1c4354d5da99a') in 0.005400 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/IRONHEAD Games/Materials/BallPilates.mat
-  artifactKey: Guid(b653aeae90d196641afd35d4cb8006b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/BallPilates.mat using Guid(b653aeae90d196641afd35d4cb8006b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0df59dd5fb576ce9e1bf8149c7b216') in 0.016122 seconds 
+  Time since last request: 69.763218 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets
+  artifactKey: Guid(9ae9d09a26d6543b4b7d8ce7cfbdd101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets using Guid(9ae9d09a26d6543b4b7d8ce7cfbdd101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179ad203740a12e0c083a4e494b929fa') in 0.008326 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002177 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.40 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.388 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3390ms)
+		BeginReloadAssembly (433ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (47ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (125ms)
+		EndReloadAssembly (2664ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (396ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1762ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (88ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (1395ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
+Unloading 4304 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.3 MB). Loaded Objects now: 4818.
+Memory consumption went from 285.7 MB to 284.4 MB.
+Total: 9.806125 ms (FindLiveObjects: 2.065041 ms CreateObjectMapping: 0.292959 ms MarkObjects: 7.182584 ms  DeleteObjects: 0.264375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/IRONHEAD Games/Model/TennisRacket.fbx
-  artifactKey: Guid(6f46b9d784027d84a91b96602f62b326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Model/TennisRacket.fbx using Guid(6f46b9d784027d84a91b96602f62b326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e58aa4fab70d30bd9db09186d49e66') in 0.038651 seconds 
+  Time since last request: 51.383926 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef
+  artifactKey: Guid(8f07e33567e0ee542b40769c456c6b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef using Guid(8f07e33567e0ee542b40769c456c6b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dde546b3fab4d75c886a59b860a5d7c') in 0.292707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Left Grab Move.preset
+  artifactKey: Guid(e2e08fffc3edfbb47a429bae0c5a6343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Left Grab Move.preset using Guid(e2e08fffc3edfbb47a429bae0c5a6343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997187f1f4c486d99883fa8df12baeb9') in 0.168300 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000120 seconds.
-  path: Assets/IRONHEAD Games/Model/TreeC.fbx
-  artifactKey: Guid(37423572308282941b5fabb9c61ab572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Model/TreeC.fbx using Guid(37423572308282941b5fabb9c61ab572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcdc6722eebfdf44fda7572cb45adf5') in 0.034929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/IRONHEAD Games/Model/BasketBall.fbx
-  artifactKey: Guid(c4b1bd137b46ea94d91bcdcf91e09078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Model/BasketBall.fbx using Guid(c4b1bd137b46ea94d91bcdcf91e09078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71113cfcf17827312cba31a2d03bf682') in 0.024433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/IRONHEAD Games/Model/BaasketBoard.fbx
-  artifactKey: Guid(313f67f27665094409bc6dbea2291f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Model/BaasketBoard.fbx using Guid(313f67f27665094409bc6dbea2291f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df386c7a138be79b6d2bfef2ad8bf9eb') in 0.040136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/IRONHEAD Games/Materials/Avatar3.mat
-  artifactKey: Guid(0f2cae6342edd5d4e921d23b40ec716a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Avatar3.mat using Guid(0f2cae6342edd5d4e921d23b40ec716a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f548575500298306d5814ec74441d5') in 0.010909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/IRONHEAD Games/Materials/BasketHoop.mat
-  artifactKey: Guid(bb1ed01b1ea8535418535d056cba81d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/BasketHoop.mat using Guid(bb1ed01b1ea8535418535d056cba81d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191ae2170ad3075d0d7aefdeab0de014') in 0.010236 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/IRONHEAD Games/Materials/Handle.mat
-  artifactKey: Guid(9ba678d806bb910468fb800c54998745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Handle.mat using Guid(9ba678d806bb910468fb800c54998745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbfcb739714ed278a2804ae594a77af') in 0.017088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/IRONHEAD Games/Model/NerfBoard.fbx
-  artifactKey: Guid(e5e865bb4d6360446899f5afa9c2f7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Model/NerfBoard.fbx using Guid(e5e865bb4d6360446899f5afa9c2f7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa394e6c4fd26db50ee8099377b5473c') in 0.036389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/IRONHEAD Games/Materials/BasketBoard.mat
-  artifactKey: Guid(9cebc369ac38f684fa4b28be4ad16fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/BasketBoard.mat using Guid(9cebc369ac38f684fa4b28be4ad16fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0318a0c5419fd794cd6a931b1a2d57fe') in 0.009658 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/IRONHEAD Games/Materials/BasketLines.mat
-  artifactKey: Guid(6bbfa7bb65c46a54191b67ee5875d11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/BasketLines.mat using Guid(6bbfa7bb65c46a54191b67ee5875d11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60938d04cb7bd194755a47a3156d31e3') in 0.010361 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/IRONHEAD Games/Materials/Hair5.mat
-  artifactKey: Guid(828f81e69d0e726439c61bf1937e88da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Hair5.mat using Guid(828f81e69d0e726439c61bf1937e88da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddb0f9554097d25e89874235ad3a81b') in 0.009835 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/IRONHEAD Games/Model/LandCollider2.fbx
-  artifactKey: Guid(7fef82a03bb7b584a87f5cfd05b47690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Model/LandCollider2.fbx using Guid(7fef82a03bb7b584a87f5cfd05b47690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e506c43928bd000d661da26abe1c1cf0') in 0.022756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/IRONHEAD Games/Model/Avatar1.fbx
-  artifactKey: Guid(e1771d0663ea83f4cb714ab1ce1d3d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Model/Avatar1.fbx using Guid(e1771d0663ea83f4cb714ab1ce1d3d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ebf03a15d8367a93d2ed639777237e') in 0.072866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/IRONHEAD Games/Model/RockB.fbx
-  artifactKey: Guid(159ca22cc6b7efb4cad7530c67b0ef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Model/RockB.fbx using Guid(159ca22cc6b7efb4cad7530c67b0ef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c40f61e3a28821969c9cc6c8a34f4e') in 0.031174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/IRONHEAD Games/Model/Log.fbx
-  artifactKey: Guid(f8ca187a4bd90724e93ef08786bad5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Model/Log.fbx using Guid(f8ca187a4bd90724e93ef08786bad5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb0b5c1c9939b9fdd03b2c9f224fa13') in 0.036304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/IRONHEAD Games/Materials/Book.mat
-  artifactKey: Guid(2d7d44c0961236c4a99af8b39b5455e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Book.mat using Guid(2d7d44c0961236c4a99af8b39b5455e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06513f31db78d0cc1d635e61994efbb') in 0.010525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/IRONHEAD Games/Materials/Cup.mat
-  artifactKey: Guid(1e8291b3df33ace428b1bc309516de7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Cup.mat using Guid(1e8291b3df33ace428b1bc309516de7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfc3875e4ca3799be351de9e90e0f49') in 0.014039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/IRONHEAD Games/Materials/Avatar5.mat
-  artifactKey: Guid(593ab5ced9bab3043bbe912883e4e07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Avatar5.mat using Guid(593ab5ced9bab3043bbe912883e4e07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709b3e65718c5e43048b89e73bef8c3d') in 0.010038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/IRONHEAD Games/Materials/Desert.mat
-  artifactKey: Guid(7e83a59ad1e7c3d46855d1b906ef0733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Desert.mat using Guid(7e83a59ad1e7c3d46855d1b906ef0733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a89546eaebc858321d7d4444c41fb21') in 0.012005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/IRONHEAD Games/Materials/Hair2sad.mat
-  artifactKey: Guid(486b4088719f386468bbbb6704828618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Hair2sad.mat using Guid(486b4088719f386468bbbb6704828618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b737d4545533cea8fe84a4dbe5f8f7') in 0.010387 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/IRONHEAD Games/Materials/Fire.mat
-  artifactKey: Guid(b519c38bc0df5ed4cb15213806bfcde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Fire.mat using Guid(b519c38bc0df5ed4cb15213806bfcde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f242db0708806caf326b07a47c490d20') in 0.222690 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/IRONHEAD Games/Materials/Glass2.mat
-  artifactKey: Guid(093a5b53835b99449b53d193bbe80cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Glass2.mat using Guid(093a5b53835b99449b53d193bbe80cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24628df0410fae73bf4a28f92d64688e') in 0.010086 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/IRONHEAD Games/Materials/Hair3.mat
-  artifactKey: Guid(f9048364d0ddad2429aa3710bbb91251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Hair3.mat using Guid(f9048364d0ddad2429aa3710bbb91251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81abcd592d644c315a9296d8fba193e5') in 0.013335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/IRONHEAD Games/Model/RockA.fbx
-  artifactKey: Guid(99c19665c573f784b86dfccb57b811de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Model/RockA.fbx using Guid(99c19665c573f784b86dfccb57b811de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013bcc8207ccb6506f06cfb26c85f3b2') in 0.025052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/IRONHEAD Games/Materials/Door.mat
-  artifactKey: Guid(c2418e682efd3a64f89c9167f011c105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Door.mat using Guid(c2418e682efd3a64f89c9167f011c105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863e3600626b800ed4fdb072162444ff') in 0.011199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/IRONHEAD Games/Materials/Fire2.mat
-  artifactKey: Guid(b4762613ddb90444a92d58cef78744b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Fire2.mat using Guid(b4762613ddb90444a92d58cef78744b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ac847f61f17e819bd6f37572898d31') in 0.012156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/IRONHEAD Games/Model/TreeB.fbx
-  artifactKey: Guid(243415ed07d8b144280a05a5fc6d3f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Model/TreeB.fbx using Guid(243415ed07d8b144280a05a5fc6d3f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b54c9f72ec21b835e6486c641dda67') in 0.052914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/IRONHEAD Games/Materials/Floor2.mat
-  artifactKey: Guid(1bb1df09c9caa664caf5506f2bc635dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Floor2.mat using Guid(1bb1df09c9caa664caf5506f2bc635dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21478aa932ee3485bdb6d854b0529af') in 0.181761 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/IRONHEAD Games/Materials/Door2.mat
-  artifactKey: Guid(a469befe2c2634b45962b3c5c14812c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Door2.mat using Guid(a469befe2c2634b45962b3c5c14812c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c11151442d55d7c22d087f9dbf57be') in 0.009257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/IRONHEAD Games/Materials/FloorLogin.mat
-  artifactKey: Guid(ef68fbb08210a8e4ba32f82459e6ff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/FloorLogin.mat using Guid(ef68fbb08210a8e4ba32f82459e6ff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f952d7ae373dcfc44b815b375885f6') in 0.495611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/IRONHEAD Games/Model/Avatar3.fbx
-  artifactKey: Guid(791644c7414d4f24d8420d92e728e091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Model/Avatar3.fbx using Guid(791644c7414d4f24d8420d92e728e091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34e76b3e20041887e391a1b0a8ab7ea') in 0.182106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/IRONHEAD Games/Model/Caravan.fbx
-  artifactKey: Guid(7586964749e85494bb64d8c66c05abe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Model/Caravan.fbx using Guid(7586964749e85494bb64d8c66c05abe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e597edb125c45e8872ebdbc749eef4') in 0.484630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.262873 seconds.
-  path: Assets/IRONHEAD Games/Scenes/HomeScene.unity
-  artifactKey: Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scenes/HomeScene.unity using Guid(66249e54836b48a42acadcc57da3e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ada4a727802f94dd197f8378772f16') in 0.001167 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 49.114318 seconds.
-  path: Assets/ChitMoe Games
-  artifactKey: Guid(09d6f60ed621f4f5496776ef53e9071e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ChitMoe Games using Guid(09d6f60ed621f4f5496776ef53e9071e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff80802df72c2f7d9cda99f734c107a6') in 0.001156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.231435 seconds.
-  path: Assets/ChitMoe GameAssets
-  artifactKey: Guid(09d6f60ed621f4f5496776ef53e9071e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ChitMoe GameAssets using Guid(09d6f60ed621f4f5496776ef53e9071e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258d130c52ccb1a4d3f692da448cc7e6') in 0.000846 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1232.411668 seconds.
-  path: Assets/IRONHEAD Games/Materials/Keyboard.mat
-  artifactKey: Guid(912bfc44f2121484799d9e54215273a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Keyboard.mat using Guid(912bfc44f2121484799d9e54215273a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1d374001d363d8dfae22c3b8bc6daa') in 0.025867 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/IRONHEAD Games/Materials/Lamp.mat
-  artifactKey: Guid(1672e71118483ec4e83b15c4f405bccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Lamp.mat using Guid(1672e71118483ec4e83b15c4f405bccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2f3bf507194280ce5e0a325a8decfc') in 0.024708 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/IRONHEAD Games/Materials/LampPiece.mat
-  artifactKey: Guid(b22279eeb67912a4982205955df8610b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/LampPiece.mat using Guid(b22279eeb67912a4982205955df8610b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aec83c8cbca9ea75f7de406795aeec6') in 0.032616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/IRONHEAD Games/Materials/Leaf3.mat
-  artifactKey: Guid(b523c3a69aa9b04498876539abb7298b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Leaf3.mat using Guid(b523c3a69aa9b04498876539abb7298b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7600aadcb217a4cd7f9c9d772ac244ce') in 0.032255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/IRONHEAD Games/Materials/LampArm.mat
-  artifactKey: Guid(40b220e483b0fcb499eaaefdffae8711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/LampArm.mat using Guid(40b220e483b0fcb499eaaefdffae8711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e514f30f7bb48116da3d3eb9375c29') in 0.019642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/IRONHEAD Games/Materials/Leaf2.mat
-  artifactKey: Guid(790852ef821b6ee4caf7c076f6e45292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Leaf2.mat using Guid(790852ef821b6ee4caf7c076f6e45292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0244e60e1d5a65ec18ec6f89ec3120c4') in 0.016865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.308853 seconds.
-  path: Assets/IRONHEAD Games/Scenes/World_Outdoor.unity
-  artifactKey: Guid(5041d70b592f91c4c8b6824c2ef6484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scenes/World_Outdoor.unity using Guid(5041d70b592f91c4c8b6824c2ef6484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6cb07dca5e8e2ff6e192bf44e75dec') in 0.001057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.428360 seconds.
-  path: Assets/IRONHEAD Games/Scenes/World_School.unity
-  artifactKey: Guid(b72244336204212439510723e69fa9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Scenes/World_School.unity using Guid(b72244336204212439510723e69fa9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da205947aba9cdddeda03d6ae0b11d5') in 0.002220 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006338 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Mono: successfully reloaded assembly
-- Completed reload, in  1.821 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1823ms)
-		BeginReloadAssembly (356ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (155ms)
-		EndReloadAssembly (1328ms)
-			LoadAssemblies (203ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (454ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (590ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (92ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (364ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3536 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (2.9 MB). Loaded Objects now: 4017.
-Memory consumption went from 236.6 MB to 233.8 MB.
-Total: 6.735699 ms (FindLiveObjects: 0.430945 ms CreateObjectMapping: 0.361027 ms MarkObjects: 4.720925 ms  DeleteObjects: 1.221440 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009273 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Mono: successfully reloaded assembly
-- Completed reload, in  1.535 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1536ms)
-		BeginReloadAssembly (242ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (69ms)
-		EndReloadAssembly (1139ms)
-			LoadAssemblies (168ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (355ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (557ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (44ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (382ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3555 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (2.9 MB). Loaded Objects now: 4039.
-Memory consumption went from 242.6 MB to 239.7 MB.
-Total: 6.632346 ms (FindLiveObjects: 0.413440 ms CreateObjectMapping: 0.283955 ms MarkObjects: 4.409645 ms  DeleteObjects: 1.523967 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1196.082504 seconds.
-  path: Assets/Brick Project Studio/_BPS Basic Assets
-  artifactKey: Guid(91b83f31308c06d439689f8138186839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/_BPS Basic Assets using Guid(91b83f31308c06d439689f8138186839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387fce5b970ee12193768787569037bf') in 0.008507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.127842 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit
-  artifactKey: Guid(6315d9097f0ef714cb63b945663ecbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit using Guid(6315d9097f0ef714cb63b945663ecbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e27da5d3206e1e8b57f7cd5151f7054') in 0.001146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.860760 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Scenes
-  artifactKey: Guid(61da4cc8a797db742b0b461e2e6dadbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Scenes using Guid(61da4cc8a797db742b0b461e2e6dadbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4901bbe784bc8e6fb49bc92480609d') in 0.000994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.897815 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Scenes/Scene_01.unity
-  artifactKey: Guid(4f80debdb52c166478997e1d2b329e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Scenes/Scene_01.unity using Guid(4f80debdb52c166478997e1d2b329e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66aeb41b7953f0be823a9022f8baa54e') in 0.000789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 50.137754 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Scenes/Scene_02.unity
-  artifactKey: Guid(9b5aa6428ba7a6246bd201ba8d95cebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Scenes/Scene_02.unity using Guid(9b5aa6428ba7a6246bd201ba8d95cebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5067b36bceaee963bb13a2bfdf9c8b') in 0.003258 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004828 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Mono: successfully reloaded assembly
-- Completed reload, in  1.308 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1310ms)
-		BeginReloadAssembly (250ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (100ms)
-		EndReloadAssembly (953ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (425ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (283ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3555 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (2.9 MB). Loaded Objects now: 4042.
-Memory consumption went from 248.3 MB to 245.4 MB.
-Total: 6.019559 ms (FindLiveObjects: 0.411909 ms CreateObjectMapping: 0.339865 ms MarkObjects: 3.775617 ms  DeleteObjects: 1.490519 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002686 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Mono: successfully reloaded assembly
-- Completed reload, in  1.386 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1387ms)
-		BeginReloadAssembly (241ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (109ms)
-		EndReloadAssembly (1027ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (386ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (436ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (41ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (280ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3555 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (2.9 MB). Loaded Objects now: 4045.
-Memory consumption went from 253.7 MB to 250.9 MB.
-Total: 4.259380 ms (FindLiveObjects: 0.317114 ms CreateObjectMapping: 0.200810 ms MarkObjects: 2.764506 ms  DeleteObjects: 0.976197 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Right Controller.preset
+  artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a0e11eaea5886e5b8f09b998dfe7a3') in 0.009731 seconds 
