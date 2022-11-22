@@ -357,3 +357,96 @@ Received Import Request.
   path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar5.prefab
   artifactKey: Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar5.prefab using Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4436e9eecb4fa20b7c62652a6737b3') in 0.013278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4842.671252 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(d36ab344a02994f96a1744f3854bea8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples using Guid(d36ab344a02994f96a1744f3854bea8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752417e00b2f92c17d782b7b89d6b354') in 0.003323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.956802 seconds.
+  path: Assets/IRONHEAD Games
+  artifactKey: Guid(e8cfd965d8ff3424ca34b4de4307f35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games using Guid(e8cfd965d8ff3424ca34b4de4307f35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0ffe290f42ba89485e6794e5128f5e') in 0.001828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.616593 seconds.
+  path: Assets/City pack
+  artifactKey: Guid(a3903168d59524d15927a932284b17f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City pack using Guid(a3903168d59524d15927a932284b17f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae357986cdf279c391b90bcc92ed2f1') in 0.001738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.381699 seconds.
+  path: Assets/Apartment Pack
+  artifactKey: Guid(39f8a5732a15f774e8d434c1ce70a764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment Pack using Guid(39f8a5732a15f774e8d434c1ce70a764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7143da9ae80e7c3724ab790098674597') in 0.001597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.307173 seconds.
+  path: Assets/_ChitMoe GameAssets
+  artifactKey: Guid(09d6f60ed621f4f5496776ef53e9071e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChitMoe GameAssets using Guid(09d6f60ed621f4f5496776ef53e9071e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b0a1d299456ecabaf37194df68e8f3') in 0.001501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.725080 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(3fb7c269a0e0240a0bd4e01a7d72d641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(3fb7c269a0e0240a0bd4e01a7d72d641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a291691934a63ed06b188cb804023b') in 0.001017 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002077 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.53 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.567 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3569ms)
+		BeginReloadAssembly (453ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (159ms)
+		EndReloadAssembly (2807ms)
+			LoadAssemblies (201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (393ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1851ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (83ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (1491ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.30 ms.
+Unloading 4305 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.3 MB). Loaded Objects now: 4867.
+Memory consumption went from 312.5 MB to 311.2 MB.
+Total: 4.015750 ms (FindLiveObjects: 0.287417 ms CreateObjectMapping: 0.122500 ms MarkObjects: 3.023042 ms  DeleteObjects: 0.578916 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

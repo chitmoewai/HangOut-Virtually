@@ -391,6 +391,7 @@
 "Assets/Apartment Pack/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs"
 "Assets/Apartment Pack/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs"
 "Assets/Apartment Pack/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs"
+"Assets/Scripts/AvatarInputConverter.cs"
 -langversion:9.0
 
 /deterministic
