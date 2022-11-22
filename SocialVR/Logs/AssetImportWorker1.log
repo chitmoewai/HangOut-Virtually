@@ -273,3 +273,39 @@ Received Import Request.
   path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Right Grab Move.preset
   artifactKey: Guid(fdc4f514b7b1e9c4eb39713ad9dd4eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Right Grab Move.preset using Guid(fdc4f514b7b1e9c4eb39713ad9dd4eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f432e79c98f6262300adc1ecdf3e19e') in 0.005825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2879.033031 seconds.
+  path: Assets/IRONHEAD Games/Materials/Avatar2.mat
+  artifactKey: Guid(de8de76c3ef3ff14598f67dea86a6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Avatar2.mat using Guid(de8de76c3ef3ff14598f67dea86a6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbec16c951ace912ef57c0acf147ddc') in 0.967342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/IRONHEAD Games/Materials/FloorCaravan.mat
+  artifactKey: Guid(dc51b82c8244885479cb9f6342d32c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/FloorCaravan.mat using Guid(dc51b82c8244885479cb9f6342d32c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0f8dbe766630718a629fe15376771f') in 0.049578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/IRONHEAD Games/Materials/FloorLogin.mat
+  artifactKey: Guid(ef68fbb08210a8e4ba32f82459e6ff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/FloorLogin.mat using Guid(ef68fbb08210a8e4ba32f82459e6ff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb6bb66f669e13e740fcbd3d62a6ab7') in 0.008802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/IRONHEAD Games/Materials/Avatar4.mat
+  artifactKey: Guid(0d25e1732ca505248831830cfe1e9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Materials/Avatar4.mat using Guid(0d25e1732ca505248831830cfe1e9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080d20fb17ae4a44f87fb012fda39be7') in 0.009555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.759376 seconds.
+  path: Assets/IRONHEAD Games/Model/Particle/Fireplace.fbx
+  artifactKey: Guid(947395c8197a8d54894aae92eb0723bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Model/Particle/Fireplace.fbx using Guid(947395c8197a8d54894aae92eb0723bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9c48b5065e606aaf904466a70923e8') in 0.291483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.336333 seconds.
+  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab
+  artifactKey: Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab using Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d747786885ccc57787bfeae1163d91d') in 0.113947 seconds 
