@@ -189,3 +189,17 @@ Received Import Request.
   artifactKey: Guid(9792f8a8c9db37343b1223b74448a1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/IRONHEAD Games/Textures/Mirror Render Texture.renderTexture using Guid(9792f8a8c9db37343b1223b74448a1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.032343 seconds  code(4) message(Build asset version error: assets/ironhead games/textures/mirror render texture.rendertexture in SourceAssetDB has modification time of '2022-11-22T02:56:05Z' while content on disk has modification time of '2022-11-23T14:04:17Z')
   ERROR: Build asset version error: assets/ironhead games/textures/mirror render texture.rendertexture in SourceAssetDB has modification time of '2022-11-22T02:56:05Z' while content on disk has modification time of '2022-11-23T14:04:17Z'
+========================================================================
+Received Import Request.
+  Time since last request: 1315.657486 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Continuous Move.preset
+  artifactKey: Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Continuous Move.preset using Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.166500 seconds  code(4) message(Build asset version error: assets/samples/xr interaction toolkit/2.2.0/starter assets/xri default continuous move.preset in SourceAssetDB has modification time of '2022-10-10T09:41:22Z' while content on disk has modification time of '2022-11-23T13:56:06Z')
+  ERROR: Build asset version error: assets/samples/xr interaction toolkit/2.2.0/starter assets/xri default continuous move.preset in SourceAssetDB has modification time of '2022-10-10T09:41:22Z' while content on disk has modification time of '2022-11-23T13:56:06Z'
+========================================================================
+Received Import Request.
+  Time since last request: 3.072659 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Continuous Turn.preset
+  artifactKey: Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Continuous Turn.preset using Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004313 seconds  code(4) message(Build asset version error: assets/samples/xr interaction toolkit/2.2.0/starter assets/xri default continuous turn.preset in SourceAssetDB has modification time of '2022-10-10T09:41:22Z' while content on disk has modification time of '2022-11-23T13:56:06Z')
+  ERROR: Build asset version error: assets/samples/xr interaction toolkit/2.2.0/starter assets/xri default continuous turn.preset in SourceAssetDB has modification time of '2022-10-10T09:41:22Z' while content on disk has modification time of '2022-11-23T13:56:06Z'
