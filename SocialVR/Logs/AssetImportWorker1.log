@@ -2,16 +2,16 @@ Unity Editor version:    2021.3.5f1 (40eb3a945986)
 Branch:                  2021.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 12.6 (Build 21G115)
-Darwin version:          21.6.0
+macOS version:           Version 13.0 (Build 22A380)
+Darwin version:          22.1.0
 Architecture:            x86_64
-Running under Rosetta:   YES
+Running under Rosetta:   NO
 Available memory:        8192 MB
 Using pre-set license
 Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-/Applications/2021.3.5f1/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/2021.3.5f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51575
+49528
 Successfully changed project path to: /Users/chitmoewai/HangOut-Virtually/SocialVR
 /Users/chitmoewai/HangOut-Virtually/SocialVR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,109 +54,116 @@ Successfully changed project path to: /Users/chitmoewai/HangOut-Virtually/Social
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 224.46 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 9.83 ms.
+Refreshing native plugins compatible for Editor in 540.82 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 9.41 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
-[Subsystems] Discovering subsystems at path /Applications/2021.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Applications/Unity/2021.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/chitmoewai/HangOut-Virtually/SocialVR/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M1 (high power)
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
 Metal devices available: 1
-0: Apple M1 (high power)
-Using device Apple M1 (high power)
-Initializing Metal device caps: Apple M1
+0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
 Initialize mono
-Mono path[0] = '/Applications/2021.3.5f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56297
+Mono path[0] = '/Applications/Unity/2021.3.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/2021.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/2021.3.5f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.001956 seconds.
+Register platform support module: /Applications/Unity/2021.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/2021.3.5f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/2021.3.5f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.006288 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 148.54 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 1.07 ms.
+Refreshing native plugins compatible for Editor in 134.85 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.33 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.925 seconds
+- Completed reload, in  0.924 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1927ms)
-		BeginReloadAssembly (175ms)
+	ReloadAssembly (925ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1448ms)
-			LoadAssemblies (173ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (155ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (677ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (1051ms)
+			SetupLoadedEditorAssemblies (451ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (242ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (150ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (406ms)
-				ProcessInitializeOnLoadMethodAttributes (242ms)
+				InitializePlatformSupportModulesInManaged (152ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (135ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.033767 seconds.
+Registered in 0.011852 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 134.05 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.43 ms.
+Refreshing native plugins compatible for Editor in 121.36 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.33 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  3.651 seconds
+- Completed reload, in  1.809 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3654ms)
-		BeginReloadAssembly (398ms)
+	ReloadAssembly (1810ms)
+		BeginReloadAssembly (237ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (43ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (156ms)
-		EndReloadAssembly (2888ms)
-			LoadAssemblies (167ms)
+			CreateAndSetChildDomain (140ms)
+		EndReloadAssembly (1430ms)
+			LoadAssemblies (155ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (385ms)
 			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (1981ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (750ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (52ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (135ms)
-				BeforeProcessingInitializeOnLoad (188ms)
-				ProcessInitializeOnLoadAttributes (1485ms)
-				ProcessInitializeOnLoadMethodAttributes (120ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (122ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (450ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/2021.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.27 ms.
-Unloading 4358 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (1.3 MB). Loaded Objects now: 4812.
-Memory consumption went from 285.5 MB to 284.2 MB.
-Total: 3.695791 ms (FindLiveObjects: 0.259375 ms CreateObjectMapping: 0.120000 ms MarkObjects: 2.916875 ms  DeleteObjects: 0.398333 ms)
+Switching build target platform(13) subTarget(6) extendedPlatform(0) -> platform(2) subTarget(0) extendedPlatform(0)
+Launching external process: /Applications/Unity/2021.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.45 ms.
+Unloading 4362 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.3 MB). Loaded Objects now: 4816.
+Memory consumption went from 110.4 MB to 109.1 MB.
+Total: 4.415177 ms (FindLiveObjects: 0.385462 ms CreateObjectMapping: 0.245258 ms MarkObjects: 3.250831 ms  DeleteObjects: 0.532537 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,199 +177,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20602.897938 seconds.
-  path: Assets/XR/Settings/Oculus Settings.asset
-  artifactKey: Guid(d5c7c49bbc91f4a088066ac4d64ecaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Settings/Oculus Settings.asset using Guid(d5c7c49bbc91f4a088066ac4d64ecaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dde532d38a5dc7630d57604b42ce28') in 0.703889 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002269 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.50 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.398 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3400ms)
-		BeginReloadAssembly (422ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (50ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (127ms)
-		EndReloadAssembly (2679ms)
-			LoadAssemblies (194ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (395ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (1782ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (87ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (145ms)
-				ProcessInitializeOnLoadAttributes (1415ms)
-				ProcessInitializeOnLoadMethodAttributes (129ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.29 ms.
-Unloading 4304 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (1.3 MB). Loaded Objects now: 4818.
-Memory consumption went from 285.7 MB to 284.4 MB.
-Total: 10.387833 ms (FindLiveObjects: 0.291000 ms CreateObjectMapping: 0.120333 ms MarkObjects: 9.678667 ms  DeleteObjects: 0.296417 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 124.183130 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Continuous Move.preset
-  artifactKey: Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Continuous Move.preset using Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bd2ecd4112e3c3015c6addeb89fea4') in 0.267981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Left Controller.preset
-  artifactKey: Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Left Controller.preset using Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bea09e5a711a6b7af329effa4e1610') in 0.011076 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Snap Turn.preset
-  artifactKey: Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Snap Turn.preset using Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83d751eb22e220946df7c6ae71d9f1d') in 0.005207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Input Actions.inputactions
-  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae396474ad0d625b8c43966f404b3c1') in 0.123385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Continuous Turn.preset
-  artifactKey: Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Continuous Turn.preset using Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9422b6bf5aec3a199f7b6ae6146b8a0a') in 0.005300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default XR UI Input Module.preset
-  artifactKey: Guid(2c3e7ff9ab352b74da862a5a8779b276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default XR UI Input Module.preset using Guid(2c3e7ff9ab352b74da862a5a8779b276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de4d2fdba8dbefe5c027e1c6c3bb35d') in 0.015832 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Right Grab Move.preset
-  artifactKey: Guid(fdc4f514b7b1e9c4eb39713ad9dd4eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/XRI Default Right Grab Move.preset using Guid(fdc4f514b7b1e9c4eb39713ad9dd4eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f432e79c98f6262300adc1ecdf3e19e') in 0.005825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2879.033031 seconds.
-  path: Assets/IRONHEAD Games/Materials/Avatar2.mat
-  artifactKey: Guid(de8de76c3ef3ff14598f67dea86a6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Avatar2.mat using Guid(de8de76c3ef3ff14598f67dea86a6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbec16c951ace912ef57c0acf147ddc') in 0.967342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/IRONHEAD Games/Materials/FloorCaravan.mat
-  artifactKey: Guid(dc51b82c8244885479cb9f6342d32c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/FloorCaravan.mat using Guid(dc51b82c8244885479cb9f6342d32c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0f8dbe766630718a629fe15376771f') in 0.049578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/IRONHEAD Games/Materials/FloorLogin.mat
-  artifactKey: Guid(ef68fbb08210a8e4ba32f82459e6ff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/FloorLogin.mat using Guid(ef68fbb08210a8e4ba32f82459e6ff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb6bb66f669e13e740fcbd3d62a6ab7') in 0.008802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/IRONHEAD Games/Materials/Avatar4.mat
-  artifactKey: Guid(0d25e1732ca505248831830cfe1e9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials/Avatar4.mat using Guid(0d25e1732ca505248831830cfe1e9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080d20fb17ae4a44f87fb012fda39be7') in 0.009555 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.759376 seconds.
-  path: Assets/IRONHEAD Games/Model/Particle/Fireplace.fbx
-  artifactKey: Guid(947395c8197a8d54894aae92eb0723bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Model/Particle/Fireplace.fbx using Guid(947395c8197a8d54894aae92eb0723bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9c48b5065e606aaf904466a70923e8') in 0.291483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.336333 seconds.
-  path: Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab
-  artifactKey: Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Prefabs/Avatars/Avatar4.prefab using Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d747786885ccc57787bfeae1163d91d') in 0.113947 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002193 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/chitmoewai/HangOut-Virtually/SocialVR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.53 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.609 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3615ms)
-		BeginReloadAssembly (440ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (39ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (160ms)
-		EndReloadAssembly (2823ms)
-			LoadAssemblies (183ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (401ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (1908ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (85ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (149ms)
-				ProcessInitializeOnLoadAttributes (1535ms)
-				ProcessInitializeOnLoadMethodAttributes (134ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.31 ms.
-Unloading 4305 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (1.3 MB). Loaded Objects now: 4865.
-Memory consumption went from 312.2 MB to 310.9 MB.
-Total: 3.773458 ms (FindLiveObjects: 0.351541 ms CreateObjectMapping: 0.134583 ms MarkObjects: 3.029708 ms  DeleteObjects: 0.253541 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 2430.638697 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.172531 seconds  code(4) message(Build asset version error: projectsettings/tagmanager.asset in SourceAssetDB has modification time of '2022-11-22T02:56:10Z' while content on disk has modification time of '2022-11-21T13:36:13Z')
+  ERROR: Build asset version error: projectsettings/tagmanager.asset in SourceAssetDB has modification time of '2022-11-22T02:56:10Z' while content on disk has modification time of '2022-11-21T13:36:13Z'
