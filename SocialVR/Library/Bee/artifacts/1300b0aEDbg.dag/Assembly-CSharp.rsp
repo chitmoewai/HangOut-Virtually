@@ -426,6 +426,7 @@
 "Assets/Scripts/ActionBasedControllerManager.cs"
 "Assets/Scripts/AvatarInputConverter.cs"
 "Assets/Scripts/ButtonInteraction.cs"
+"Assets/Scripts/LoginManager.cs"
 "Assets/Scripts/UI_InteractionController.cs"
 -langversion:9.0
 
